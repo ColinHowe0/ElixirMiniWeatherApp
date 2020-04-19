@@ -63,7 +63,6 @@ defmodule Weather do
     |> decode_response()
     |> retrieve_information(["Weather", "Wind Speed", "Wind Direction", "Temperature", "Time"])
 
-    
   end
 
 
